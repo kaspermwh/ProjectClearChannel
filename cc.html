@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Displaying text directions with <code>setPanel()</code></title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div id="floating-panel">
+      <strong>Start:</strong>
+      <select id="start">
+        <option value="56.128753,10.1611203">Viby Torv</option>
+      </select>
+      <br>
+      <strong>End:</strong>
+      <select id="end">
+        <option value="56.1538174,10.2000701">ARoS</option> <!-- 56.1538174,10.2000701,17 -->
+        <option value="Moesgaard museum">Moesgaard Museum</option>
+        <option value="56.1535527,10.2120222">DOKK1</option>
+        <option value="botanisk have, aarhus">Botanical Garden</option>
+      </select>
+        <strong>Method of transportation:</strong>
+        <select id="method">
+            <option value="DRIVING">Drive</option>
+            <option value="BICYCLING">Bike</option>
+            <option value="TRANSIT">Public transport</option>
+            <option value="WALKING">Walk</option>
+        </select>
+    </div>
+    <div id="right-panel"></div>
+    <div id="map"></div>
+    <script src="js/script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkkzztIYYtVX2TDjOCEGKVpsZvBghzFG4&callback=initMap">
+    </script>
+  </body>
+</html>
