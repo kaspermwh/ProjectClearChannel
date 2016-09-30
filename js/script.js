@@ -14,20 +14,23 @@ function initMap() {
 
     var onChangeHandler = function() {
       calculateAndDisplayRoute(directionsService, directionsDisplay);
+        
     };
     document.getElementById('start').addEventListener('change', onChangeHandler);
     document.getElementById('end').addEventListener('change', onChangeHandler);
     document.getElementById('method').addEventListener('change', onChangeHandler);
+    document.getElementById('buttons').addEventListener('change', onChangeHandler);
   }
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     var start = document.getElementById('start').value;
     var end = document.getElementById('end').value;
     var method = document.getElementById('method').value;
+    var buttons = getvalue()
     directionsService.route({
       origin: start,
       destination: end,
-      travelMode: method
+      travelMode: buttons
     }, function(response, status) {
       if (status === 'OK') {
         directionsDisplay.setDirections(response);
@@ -35,4 +38,11 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         window.alert('Directions request failed due to ' + status);
       }
     });
+}
+
+function getvalue() {
+    var buttons = document.getElementById('car').value;
+    console.log(buttons);
+    
+    return buttons;
 }

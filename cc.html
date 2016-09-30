@@ -27,6 +27,26 @@
             <option value="TRANSIT">Public transport</option>
             <option value="WALKING">Walk</option>
         </select>
+        
+        <form id="buttons">
+            <input type="radio" name="car" value="DRIVING" checked class="car" id="car" onClick="">
+            <input type="radio" name="public" value="TRANSIT" class="public" id="public">
+            <input type="radio" name="bike" value="BICYCLING" class="bike" id="bike">
+            <input type="radio" name="walk" value="WALKING" class="walk" id="walk">
+            <label for="car">car</label>
+            <label for="public">public</label>
+            <label for="bike">bike</label>
+            <label for="walk">walk</label>
+        </form>
+        
+        <!--
+        <div id="buttons">
+            <p class="symbols" onclick="onChangeHandler()">&#9762;</p>
+            <p class="symbols" onclick="onChangeHandler()">&#9763;</p>
+            <p class="symbols" onclick="onChangeHandler()">&#9772;</p>
+            <p class="symbols" onclick="onChangeHandler()">&#9773;</p>
+        </div>
+        -->
     </div>
     <div id="right-panel"></div>
     <div id="map"></div>
