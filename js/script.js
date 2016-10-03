@@ -26,11 +26,12 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     var start = document.getElementById('start').value;
     var end = document.getElementById('end').value;
     var method = document.getElementById('method').value;
-    var buttons = getvalue()
+    var buttons = getvalue();
     directionsService.route({
       origin: start,
       destination: end,
       travelMode: buttons
+      //travelMode: method
     }, function(response, status) {
       if (status === 'OK') {
         directionsDisplay.setDirections(response);
@@ -41,8 +42,28 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
 }
 
 function getvalue() {
-    var buttons = document.getElementById('car').value;
-    console.log(buttons);
+    var car = document.getElementById('car');
+    var public = document.getElementById('public');
+    var bike = document.getElementById('bike');
+    var walk = document.getElementById('walk');
+    var buttons;
+    if (car.checked) {
+        console.log("hey");
+        buttons = car.value;
+    }
+    if (public.checked) {
+        console.log("ho");
+        buttons = public.value;
+    }
+    if (bike.checked) {
+        console.log("lets");
+        buttons = bike.value;
+    }
+    if (walk.checked) {
+        console.log("go");
+        buttons = walk.value;
+    }
+    //console.log(buttons);
     
     return buttons;
 }
