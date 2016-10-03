@@ -2,8 +2,79 @@ function initMap() {
     var directionsDisplay = new google.maps.DirectionsRenderer;
     var directionsService = new google.maps.DirectionsService;
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
-      center: {lat: 56.153701, lng: 10.2044427}
+        zoom: 15,        
+        disableDefaultUI: true
+                , center: {
+                    lat: 56.162939
+                    , lng: 10.203921000000037
+                }
+                , styles: [{
+                    "featureType": "administrative"
+                    , "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "poi"
+                    , "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road"
+                    , "elementType": "labels"
+                    , "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "water"
+                    , "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "transit"
+                    , "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "landscape"
+                    , "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road.highway"
+                    , "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.local"
+                    , "stylers": [{
+                        "visibility": "on"
+                    }]
+                }, {
+                    "featureType": "road.highway"
+                    , "elementType": "geometry"
+                    , "stylers": [{
+                        "visibility": "on"
+                    }]
+                }, {
+                    "featureType": "water"
+                    , "stylers": [{
+                        "color": "#84afa3"
+                    }, {
+                        "lightness": 52
+                    }]
+                }, {
+                    "stylers": [{
+                        "saturation": -17
+                    }, {
+                        "gamma": 0.36
+                    }]
+                }, {
+                    "featureType": "transit.line"
+                    , "elementType": "geometry"
+                    , "stylers": [{
+                        "color": "#3f518c"
+                    }]
+                }]
     });
     directionsDisplay.setMap(map);
     directionsDisplay.setPanel(document.getElementById('right-panel'));

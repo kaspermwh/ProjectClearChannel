@@ -64,3 +64,29 @@ html, body {
       width: auto;
     }
   }
+
+#buttons > *{
+    float: left;
+}
+
+#buttons input[type=radio] {
+    display: none;
+    position: fixed;
+}
+
+#buttons label{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    z-index: 1;
+    display: block;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none; 
+}
