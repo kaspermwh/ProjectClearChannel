@@ -1,0 +1,442 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/mregular.otf');
+}
+.navbar {
+	font-family: "Montserrat";
+}
+.navbar-header p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff; 
+}
+.container {
+	box-shadow: 0 2px 2px 1px rgba(0,0,0,0.5);
+}
+/* Botanical Garden picture plus text */
+.botaniskhave {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/botaniskhave.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.botaniskhave  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 5px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.botaniskhave article h2 {
+	font-size: 12px;
+	text-align: right;
+	padding: 2px;
+}
+.botaniskhave article h3  {
+	font-size: 10px;
+	text-align: right;
+	line-height: 14px;
+}
+.botaniskhave article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+.blackbg {
+	background-color: #232123;
+}
+
+/* Darkened map and selector buttons */
+.transport_means {
+	max-width: 100%;
+	height: 400px;
+	background: url(../img/gmap.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.transport_means article {
+	height: 50px;
+	background-color: #232123;
+	font-family: "Montserrat";
+	box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+}
+.transport_means article h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+}
+.transport_choose {
+	width: 66%;
+	margin: 50px auto;
+}
+.group {
+	display: inline-block; 
+	width: 115px;
+}
+.group img {
+	width: 100%;
+} 
+
+
+
+
+
+
+
+
+.moesgaard  {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/moesgaard.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.moesgaard  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 5px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.moesgaard  article h2 {
+	font-size: 12px;
+	text-align: right;
+	padding: 2px;
+}
+.moesgaard  article h3  {
+	font-size: 10px;
+	text-align: right;
+	line-height: 14px;
+}
+.moesgaard  article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.aros  {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/aros.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.aros  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 5px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.aros  article h2 {
+	font-size: 12px;
+	text-align: right;
+	padding: 2px;
+}
+.aros  article h3  {
+	font-size: 10px;
+	text-align: right;
+	line-height: 14px;
+}
+.aros  article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+
+
+
+
+
+
+.dokk1  {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/dokk1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dokk1  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 5px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.dokk1  article h2 {
+	font-size: 12px;
+	text-align: right;
+	padding: 2px;
+}
+.dokk1  article h3  {
+	font-size: 10px;
+	text-align: right;
+	line-height: 14px;
+}
+.dokk1  article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+.about  {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 50px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.about  article h2 {
+	font-size: 30px;
+	text-align: left;
+	padding: 2px;
+}
+.about  article h3  {
+	font-size: 20px;
+	text-align: left;
+	line-height: 14px;
+    color: dodgerblue;
+}
+.about  article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+
+
+
+
+
+.contacts  {
+	max-width: 100%;
+	height: 240px;
+	background: url(../img/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contacts  article {
+	position: absolute;
+	top: 120px;
+	width: 60%;
+	right: 5px;
+	color: #fff;
+	font-family: "Montserrat";
+}
+.contacts  article h2 {
+	font-size: 12px;
+	text-align: right;
+	padding: 2px;
+}
+.contacts  article h3  {
+	font-size: 10px;
+	text-align: right;
+	line-height: 14px;
+}
+.contacts  article p {
+	font-size: 8px;
+	text-align: right;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about_us {
+	max-width: 100%;
+	height: 550px;
+	background: url(../img/blue.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about_us article {
+	height: 50px;
+	background-color: #232123;
+	font-family: "Montserrat";
+	box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+}
+.about_us article h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+}
+    
+    
+   .about_us article h4 {
+	text-align: left;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+    
+}
+
+
+
+
+.contacts_us {
+	max-width: 100%;
+	height: 550px;
+	background: url(../img/blue.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contacts_us article {
+	height: 50px;
+	background-color: #232123;
+	font-family: "Montserrat";
+	box-shadow: 0 1px 2px 1px rgba(0,0,0,0.5);
+}
+.contacts_us article h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+}
+    
+    
+   .contacts_us article h4 {
+	text-align: left;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
