@@ -39,11 +39,10 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#Atractions">Botanisk Have</a></li>
-                    <li><a href="#nearby">Moesgaard</a></li>
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="../moesgard_museum/index.php">Moesgaard Museum</a></li>
+                    <li><a href="../botanisk_have/index.php">Bocanical Garden</a></li>
+                    <li><a href="../dokket/index.php">Dokk1</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
