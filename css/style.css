@@ -76,11 +76,16 @@ html, body {
 
 #buttons label{
     font-family: 'Abel', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    color: white;
     z-index: 1;
     display: block;
-    width: 100px;
-    height: 60px;
+    width: 25%;
+    height: 40px;
+    background-color: #4385F5;
     cursor: pointer;
     text-align: center;
     -webkit-touch-callout: none; /* iOS Safari */
