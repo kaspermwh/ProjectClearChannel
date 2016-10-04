@@ -2,11 +2,11 @@
     include("../snippets/htmlstart.php");
     start("Culture Explorer | Botanisk Have", "Welcome to the Botanical Garden");
 ?>
-<div class="top-image botanical">
+<div class="top-image aros">
     <article>
-        <h2><span class="blackbg">Aarhus Botanical Garden</span></h2>
-        <h3><span class="blackbg">Botanical garden is one of Aarhus' largest parks. The garden contains a wealth of opportunities for eperiences - for all the senses, different interests and needs.</span></h3>
-        <a href="http://sciencemuseerne.dk/botanisk-have/"><p><span class="blackbg">See More...</span></p></a>
+        <h2><span class="blackbg">ARoS Art Museum</span></h2>
+        <h3><span class="blackbg">ARoS is the house of art where our guests can be pleased, enlightened and challanged. The architecture is of international class and so is the art.</span></h3>
+        <a href="http://aros.dk/"><p><span class="blackbg">See More...</span></p></a>
     </article>   
 </div>
  <div id="floating-panel">
@@ -41,4 +41,4 @@
     <div id="map"></div>
 <?php
     include ("../snippets/htmlend.php");
-?> 
+?>
