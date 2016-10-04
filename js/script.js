@@ -91,7 +91,8 @@ function initMap() {
     document.getElementById('end').addEventListener('change', onChangeHandler);
     document.getElementById('method').addEventListener('change', onChangeHandler);
     document.getElementById('buttons').addEventListener('change', onChangeHandler);
-  }
+       
+}
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     var start = document.getElementById('start').value;
@@ -99,7 +100,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     var method = document.getElementById('method').value;
     var buttons = getvalue();
     directionsService.route({
-      origin: start,
+      origin:  start,
       destination: end,
       travelMode: buttons
       //travelMode: method
@@ -109,7 +110,24 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       } else {
         window.alert('Directions request failed due to ' + status);
       }
-    });
+        console.log(start);
+        var time = response.routes[0].legs[0].duration.value;
+        var minutes = Math.floor(time/60);
+        var seconds = time % 60;
+        
+        if (buttons == "DRIVING") {
+            document.getElementById('durationCar').innerHTML = "   ca. " + minutes + " min ";
+        }
+        if (buttons == "TRANSIT") {
+            document.getElementById('durationPublic').innerHTML = "   ca. " + minutes + " min ";
+        }
+        if (buttons == "BICYCLING") {
+            document.getElementById('durationBike').innerHTML = "   ca. " + minutes + " min ";
+        }
+        if (buttons == "WALKING") {
+            document.getElementById('durationWalk').innerHTML = "   ca. " + minutes + " min ";
+        }
+    });    
 }
 
 function getvalue() {

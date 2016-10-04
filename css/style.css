@@ -95,3 +95,12 @@ html, body {
     -ms-user-select: none;       /* IE/Edge */
     user-select: none; 
 }
+
+#buttons label p {
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+#buttons label i {
+    display: inline-block;
+}
