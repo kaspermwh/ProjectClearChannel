@@ -1,0 +1,48 @@
+.page_wrap {
+	width: 100%;
+}
+.attname {
+	position: absolute;
+	width: 40%;
+	right: 10px;
+}
+.attname p {
+	color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   	font-family: "Montserrat";
+	text-align: right;
+	font-size: 26px;
+}
+.bota {
+	top: 170px;
+}
+.moesgaard {
+	top: 390px;
+}
+.aros {
+	top: 615px;
+}
+.dokk {
+	top: 860px;
+}
+.dengamle {
+	top: 1060px;
+}
+.kunsthal {
+	top: 1285px;
+}
+.attractions {
+	width: 98%;
+	margin: 5px auto;
+}
+.attractions li {
+	width: 100%;
+}
+.attractions li img {
+	width: 100%;
+}
+.attractions a {
+	text-decoration: none;
+}
