@@ -1,0 +1,41 @@
+.attractions ul {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page_wrap {
+	width: 100%;
+}
+.attname {
+	position: relative;
+    float: right;
+	width: 40%;
+	right: 20px;
+    margin-top: -80px;
+    color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   	font-family: "Montserrat";
+	text-align: right;
+	font-size: 26px;
+}
+
+.attractions {
+	width: 98%;
+	margin: 5px auto;
+}
+.attractions li {
+	width: 100%;
+}
+.attractions li img {
+	width: 100%;
+}
+.attractions a {
+	text-decoration: none;
+}
+
+.attractions a:hover {
+	opacity: 0.8;
+}

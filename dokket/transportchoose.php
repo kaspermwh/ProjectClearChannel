@@ -2,11 +2,11 @@
     include("../snippets/htmlstart.php");
     start("Culture Explorer | Botanisk Have", "Welcome to the Botanical Garden");
 ?>
-<div class="top-image botanical">
+<div class="top-image dokk">
     <article>
-        <h2><span class="blackbg">Aarhus Botanical Garden</span></h2>
-        <h3><span class="blackbg">Botanical garden is one of Aarhus' largest parks. The garden contains a wealth of opportunities for eperiences - for all the senses, different interests and needs.</span></h3>
-        <a href="http://sciencemuseerne.dk/botanisk-have/"><p><span class="blackbg">See More...</span></p></a>
+            <h2><span class="blackbg">Dokk1</span></h2>
+            <h3><span class="blackbg">At Dokk1 you will have the chance for eperience and activity as well for tranquility and contemplation.</span></h3>
+            <a href="https://dokk1.dk/"><p><span class="blackbg">See More...</span></p></a>
     </article>   
 </div>
  <div id="floating-panel">
@@ -14,10 +14,10 @@
         <option value="56.128753,10.1611203">Viby Torv</option>
       </select>
       <select id="end">
-        <option value="botanisk have, aarhus">Botanical Garden</option>
+        <option value="56.1535527,10.2120222">DOKK1</option>
         <option value="56.1538174,10.2000701">ARoS</option> 
         <option value="Moesgaard museum">Moesgaard Museum</option>
-        <option value="56.1535527,10.2120222">DOKK1</option>
+        <option value="botanisk have, aarhus">Botanical Garden</option>
       </select>
         <select id="method">
             <option value="DRIVING">Drive</option>
@@ -41,4 +41,4 @@
     <div id="map"></div>
 <?php
     include ("../snippets/htmlend.php");
-?> 
+?>
