@@ -2,7 +2,7 @@
     include("../snippets/htmlstart.php");
     start("Culture Explorer | Botanisk Have", "Welcome to the Botanical Garden");
 ?>
-<div class="top-image aros">
+<div id="hideaway" class="top-image aros">
     <article>
         <h2><span class="blackbg">ARoS Art Museum</span></h2>
         <h3><span class="blackbg">ARoS is the house of art where our guests can be pleased, enlightened and challanged. The architecture is of international class and so is the art.</span></h3>
@@ -27,10 +27,10 @@
         </select>
         
     <form id="buttons">
-            <input type="radio" name="button" value="DRIVING" class="car" id="car">
-            <input type="radio" name="button" value="TRANSIT" class="public" id="public">
-            <input type="radio" name="button" value="BICYCLING" class="bike" id="bike">
-            <input type="radio" name="button" value="WALKING" class="walk" id="walk">
+            <input type="radio" onclick="pushup()" name="button" value="DRIVING" class="car" id="car">
+            <input type="radio" onclick="pushup()" name="button" value="TRANSIT" class="public" id="public">
+            <input type="radio" onclick="pushup()" name="button" value="BICYCLING" class="bike" id="bike">
+            <input type="radio" onclick="pushup()" name="button" value="WALKING" class="walk" id="walk">
             <label for="car"><i class="fa fa-car" aria-hidden="true"></i><p id="durationCar"></p></label>
             <label for="public"><i class="fa fa-bus" aria-hidden="true"></i><p id="durationPublic"></p></label>
             <label for="bike"><i class="fa fa-bicycle" aria-hidden="true"></i><p id="durationBike"></p></label>

@@ -20,6 +20,7 @@ html, body {
     line-height: 30px;
     width: 100%;
     /*display: none;*/
+    transition: margin-top 1s ease-in-out;
   }
   #right-panel {
     font-family: 'Roboto','sans-serif';

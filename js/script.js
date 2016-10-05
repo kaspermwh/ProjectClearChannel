@@ -156,3 +156,9 @@ function getvalue() {
     
     return buttons;
 }
+
+function pushup() {
+  $( "#hideaway" ).slideUp( 1000, "linear", function() {
+  });
+    $( "#floating-panel" ).css("margin", "50px 0 0 0");
+}
