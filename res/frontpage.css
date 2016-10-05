@@ -1,13 +1,19 @@
+.attractions ul {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .page_wrap {
 	width: 100%;
 }
 .attname {
-	position: absolute;
+	position: relative;
+    float: right;
 	width: 40%;
-	right: 10px;
-}
-.attname p {
-	color: black;
+	right: 20px;
+    margin-top: -80px;
+    color: black;
    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
@@ -15,24 +21,7 @@
 	text-align: right;
 	font-size: 26px;
 }
-.bota {
-	top: 170px;
-}
-.moesgaard {
-	top: 390px;
-}
-.aros {
-	top: 615px;
-}
-.dokk {
-	top: 860px;
-}
-.dengamle {
-	top: 1060px;
-}
-.kunsthal {
-	top: 1285px;
-}
+
 .attractions {
 	width: 98%;
 	margin: 5px auto;
@@ -45,4 +34,8 @@
 }
 .attractions a {
 	text-decoration: none;
+}
+
+.attractions a:hover {
+	opacity: 0.8;
 }
