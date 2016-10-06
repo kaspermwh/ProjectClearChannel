@@ -37,7 +37,11 @@
             <label for="walk"><i class="fa fa-male" aria-hidden="true"></i><p id="durationWalk"></p></label>
         </form>
     </div>
+<<<<<<< HEAD
     <div id="right-panel" onclick="whatever()"></div>
+=======
+    <div id="right-panel"></div>
+>>>>>>> 973ee3f7a1ed890895c2c03b89f775c7bd27f813
     <div id="map"></div>
     
 <?php
