@@ -1,3 +1,5 @@
+var fuck = 0;
+
 function initMap() {
     var directionsDisplay = new google.maps.DirectionsRenderer;
     var directionsService = new google.maps.DirectionsService;
@@ -91,13 +93,22 @@ function initMap() {
     document.getElementById('end').addEventListener('change', onChangeHandler);
     document.getElementById('method').addEventListener('change', onChangeHandler);
     document.getElementById('buttons').addEventListener('change', onChangeHandler);
-       
+    
+    //onChangeHandler();
 }
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
-    var start = document.getElementById('start').value;
+    $("#right-panel").css("display", "block");
+    var start = (56.128753,10.1611203);
+    if (document.getElementById('start').value != null) {
+        start = document.getElementById('start').value;
+    }
     var end = document.getElementById('end').value;
-    var method = document.getElementById('method').value;
+    var method = "DRIVING";
+    if (document.getElementById('method').value != null) {
+        method = document.getElementById('method').value;
+    }
+    
     var buttons = getvalue();
     directionsService.route({
       origin:  start,
@@ -161,4 +172,14 @@ function pushup() {
   $( "#hideaway" ).slideUp( 1000, "linear", function() {
   });
     $( "#floating-panel" ).css("margin", "50px 0 0 0");
+}
+
+function whatever() {
+    if (fuck == 0) {
+        $("#right-panel").css("top", "55%");
+        fuck = 1;
+    } else {
+        $("#right-panel").css("top", "0");
+        fuck = 0;
+    }
 }

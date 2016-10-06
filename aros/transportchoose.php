@@ -37,8 +37,9 @@
             <label for="walk"><i class="fa fa-male" aria-hidden="true"></i><p id="durationWalk"></p></label>
         </form>
     </div>
-    <!-- <div id="right-panel"></div> -->
+    <div id="right-panel" onclick="whatever()"></div>
     <div id="map"></div>
+    
 <?php
     include ("../snippets/htmlend.php");
 ?>

@@ -2,13 +2,22 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
 #start, #end, #method {
   display: none;
 }
   #map {
     height: 100%;
+
   }
+
+#overflowControl {
+    overflow: hidden;
+    display: relative;
+    z-index: -1;
+}
+
   #floating-panel {
     position: absolute;
     top: 10px;
@@ -26,6 +35,15 @@ html, body {
     font-family: 'Roboto','sans-serif';
     line-height: 30px;
     padding-left: 10px;
+    position: absolute;
+    display: none;
+    margin: 280px 0 0 0;
+    float: none !important;
+    z-index: 100;
+    top: 0;
+    width: 100% !important;
+    background-color: white;
+    transition: all 1s;
   }
 
   #right-panel select, #right-panel input {
